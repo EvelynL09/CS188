@@ -1,0 +1,20 @@
+body {
+    background-color: #eee;
+
+}
+
+H3 { margin-left:25%; }
+table.center {
+    width:50%;
+    margin-left:25%;
+    margin-right:25%;
+  }
+ th {
+     padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+td {
+    padding: 5px;
+   border-bottom: 1px solid #cccccc;
+}
