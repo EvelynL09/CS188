@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>605190756 Haiwei Lu</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link href="./capital_game.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+  </head>
+  <body>
+    <!--Your HTML here-->
+      <h3><div align = "left" style="font-family: 'Tangerine', serif;font-size: 60px;">Do you know the capital of this country?</div></h3>
+
+      <table id="answerHistory" class="center" style="border-collapse:collapse;">
+          <tr>
+              <h6>
+                  <th align="left">Country</th>
+                  <th align="left">Capital</th>
+                  <th align="left">Answer</th>
+              </h6>
+          </tr>
+          <tr>
+              <td id="pr2__question"></td>
+              <td><input id="pr2__answer" type="text" name="" value=""></td>
+              <td><button id="pr2__submit" type="button" onclick="seeAnswer();">See Answer</button>
+              </td>
+          </tr>
+          <tr>
+              <td>
+              <input id="all" type="radio" name="filter" value="all" checked> All
+              <input id="correct" type="radio" name="filter" value="correctOnly"> Correct Only
+              <input id="wrong" type="radio" name="filter" value="wrongOnly"> Wrong Only
+              </td>
+              <td></td>
+              <td></td>
+          </tr>
+      </table>
+      <p id="testOp"></p>
+    <script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="./country_capital_pairs.js"></script>
+    <script src="./capital_game.js"></script>
+
+  </body>
+</html>
